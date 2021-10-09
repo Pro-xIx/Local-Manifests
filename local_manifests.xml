@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="jp"
+           fetch="https://github.com/Jabiyeff-Project" />
+	
+ <!-- Kernels -->
+  <project path="kernel/xiaomi/santoni" name="kernel-santoni" remote="jp" revision="11.0"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/santoni" name="device-santoni" remote="jp" revision="11.0"/>
+  
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi"  name="vendor-santoni" remote="jp" revision="11.0"/>
+  
+  </manifest>
